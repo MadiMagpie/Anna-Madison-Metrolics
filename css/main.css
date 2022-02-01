@@ -123,7 +123,22 @@ img.logo{
 section.slider{
   display: none;
 }
+div.service_contents{
+  display: block;
 }
+.service_container{
+  display: flex;
+}
+.service_container > img{
+  width: 20%;
+  height: 20%;
+  margin: 10px;
+}
+.service_description{
+  text-align: left;
+}
+}
+
 /* Medium and up */
 @media screen and (min-width: 40em) {
 
@@ -133,7 +148,13 @@ img.hamburger{
 .page_navbar > button{
   max-width: 70%;
 }
-
+.service_contents{
+  display: flex;
+}
+div.service_contents{
+  display: grid;
+  grid-template-columns: 50% 50%; 
+}
 }
 /* Medium only */
 @media screen and (min-width: 40em) and 
@@ -143,6 +164,10 @@ img.hamburger{
 }
 .page_navbar > button{
   max-width: 60%;
+}
+.service_contents{
+  display: grid;
+  grid-template-columns: 50% 50%; 
 }
 
 }
@@ -289,15 +314,6 @@ button.chevron_right{
   transform: scalex(-1);
 }
 
-/* 
- 
-
-
-
-
- 
-
-
 /* homepage intro  */
 h1{
   margin: 3em;
@@ -309,47 +325,42 @@ h1{
 }
 
 
-/* section_services 
-
-h3{
-  font-weight: normal;
+/* section_services  */
+.services{
+  display: flex;
+  flex-direction: column;
 }
-
-
-section.services{
+.service_contents{
   display: flex;
   flex-direction: row;
 }
 
-div.service_container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 1.5em;
+h2{
+  font-size: 36px;
+  line-height: 2px;
+  font-weight: lighter;
 }
-
+header > p{
+  color: #999;
+}
 .service_container span{
   font-weight: bold;
 }
-
 .lightbulb{
   border: 2px solid orange;
   width: 50%;
   margin-bottom: 1em;
 }
-
 .photography{
   border: 2px solid green;
   width: 50%;
   margin-bottom: 1em;
 }
-
 .settings{
   border: 2px solid pink;
   width: 50%;
   margin-bottom: 1em;
 }
-
 .pencil{
   border: 2px solid darkcyan;
   width: 50%;
