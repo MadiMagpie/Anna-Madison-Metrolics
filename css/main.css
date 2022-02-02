@@ -129,6 +129,7 @@
   }
   .service_container{
     display: flex;
+    margin: 1em;
   }
   .service_container > img{
     width: 20%;
@@ -137,6 +138,7 @@
   }
   .service_description{
     text-align: left;
+    padding: .5em;
   }
   div.blog_content{
     display: flex;
@@ -365,7 +367,7 @@
     color: #999;
   }
   .service_container span{
-    font-weight: bold;
+    font-weight: bold;font-size: larger;
   }
   .lightbulb{
     border: 2px solid orange;
