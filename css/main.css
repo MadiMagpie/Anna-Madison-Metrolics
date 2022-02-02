@@ -391,6 +391,9 @@
   }
   
   /* section_blog */
+  .title{
+    margin: 3em;
+  }
   .section_blog{
     display: grid;
     grid-template-rows: 200fr 100%;
