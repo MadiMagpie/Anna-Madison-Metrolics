@@ -225,7 +225,7 @@ div.service_contents{
 }
 .description{
   margin:15px;
-  line-height: .8em;
+  line-height: 1em;
 }
 .camera{
   background: url(../img/icons/camera.png) no-repeat;
@@ -236,7 +236,15 @@ div.service_contents{
   background-color: #078cca;
   margin: 1em;
 }
-
+/* LATEST PROJECT */
+.latest_projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project_contents{
+  display: block;
+}
 /* Medium and up  */
 @media screen and (min-width: 40em){
   
@@ -416,6 +424,11 @@ div.blog_content{
   flex-direction: column;
   align-items: center;
 }
+/* LATEST PROJECT */
+.project_contents{
+  display: grid;
+  grid-template-columns: auto auto;
+}
 }
 
 /* Large and up */
@@ -432,10 +445,14 @@ div.blog_content{
 .blog_container:nth-child(4){
   display: none;
 }
+.project_contents{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+}
 }
 
 
-/*FOOTER
+/* FOOTER */
 footer{
   background-color: #16242f;
   padding-left: 15%;
@@ -460,8 +477,8 @@ footer p{
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid #CF6A66;
-} */
-/*AUTHOR
+}
+/*AUTHOR */
 .author{
   display: flex;
   flex-direction: row;
@@ -488,7 +505,7 @@ footer p{
   grid-template-columns: repeat(1,100%);
   justify-content: center;
 }
-/*ABOUT US
+/* /*ABOUT US */
 .about_us button{
   width: 50px;
   height: 50px;
@@ -526,7 +543,7 @@ footer p{
 .flickr{
   display: none;
 }
-/* RECENT TWEETS
+/* /* RECENT TWEETS */
 .recent_tweets{
   width: 100%;
 }
@@ -548,12 +565,12 @@ footer p{
   margin-right: 25px;
 }
 
-/*NEWSLETTER
+/* /*NEWSLETTER */
 .newsletter{
   display: none;
 }
 
-/* Medium and up 
+/* /* Medium and up  */
 @media screen and (min-width: 40em) {
   
   .products{
@@ -661,7 +678,7 @@ footer p{
   
 }
 
-/* FOOOTER THINGGZ
+/* /* FOOOTER THINGGZ */
 .extras{
   flex-direction: row;
   width: 65%;
@@ -677,7 +694,7 @@ footer p{
 .footer_squares img{
   width: 50%;
 }
-}
+
 
 /* ==========================================================================
    Modules 
