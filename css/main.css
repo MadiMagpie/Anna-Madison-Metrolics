@@ -242,6 +242,9 @@ div.service_contents{
   flex-direction: column;
   align-items: center;
 }
+.project_contents{
+  display: block;
+}
 .project_container{
   height: 270px;
   display: flex;
@@ -435,112 +438,8 @@ div.blog_content{
   display: grid;
   grid-template-columns: auto auto;
 }
-/* things_of_above */
-  .products{
-    grid-template-columns: repeat(2,50%);
-    grid-template-rows: repeat(3,33%);
-  }
-  
-  .wrapper{
-    grid-template-rows: repeat(2, 50%);
-    grid-template-columns: repeat(2,50%);
-    grid-gap: 15px;
-  }
-  .things_of_above {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width:100vw;
-  }
-  .things_of_above img{
-    width: 100%;
-    height: auto;
-  }
-  .extras{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .software{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2%;
-  }
-  
-  .software img{
-    height: auto;
-    margin-top: 25px;
-  }
-  
-  .about_us hr{
-    border-bottom: 1px solid #5EC08D;
-  }
-  .about_us .arrow_down{
-    border-top: 10px solid #5ec08d;
-  }
-  .about_us > div {
-    display: block;
-  }
-  .social_media{
-    margin-bottom: 0;
-  }
-  .flickr{
-    display: inline;
-  }
-  .flickr hr{
-    border-bottom: 1px solid #EFBB42;
-  }
-  .flickr .arrow_down{
-    border-top: 10px solid #EFBB42;
-  }
-  .flickr_photos{
-    padding-top:20px;
-    display: grid;
-    grid-gap:1%;
-    grid-template-rows: repeat(2, 50%);
-    grid-template-columns: repeat(3,33%);
-  }
-  .flickr_photos img{
-    width: 100%;
-  }
-  .newsletter{
-    display: inline;
-  }
-  .form{
-    width:100%;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .newsletter .input{
-    background-color: #db6662;
-    width: 75%;
-    height: 25%;
-    display: inline;
-    padding: 5% 35% 5% 2%;
-    color: white;
-  }
-  .newsletter hr{
-    border-bottom: 1px solid #50ABE1;
-  }
-  .newsletter .arrow_down{
-    border-top: 10px solid #50ABE1;
-  }
-  .newsletter img{
-    width: 17%;
-    background-color:#F5BB41;
-  }
-  .footer_squares{
-    text-align: center;
-  }
-  .footer_squares img{
-    width: 100%;
-    margin-top: 25px;
-  }
-  
-}
 
+}
 
 /* Large and up */
 @media screen and (min-width: 64em) {
@@ -682,6 +581,124 @@ footer p{
 }
 .software{
   display: none;
+}
+/* /* Medium and up  */
+@media screen and (min-width: 40em) {
+  
+  .products{
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(3,33%);
+  }
+  
+  .wrapper{
+    grid-template-rows: repeat(2, 50%);
+    grid-template-columns: repeat(2,50%);
+    grid-gap: 15px;
+  }
+  .things_of_above {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vw;
+  }
+  .things_of_above img{
+    width: 100%;
+    height: auto;
+  }
+  .extras{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .software{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+  }
+  
+  .software img{
+    height: auto;
+    margin-top: 25px;
+  }
+  
+  .about_us hr{
+    border-bottom: 1px solid #5EC08D;
+  }
+  .about_us .arrow_down{
+    border-top: 10px solid #5ec08d;
+  }
+  .about_us > div {
+    display: block;
+  }
+  .social_media{
+    margin-bottom: 0;
+  }
+  .flickr{
+    display: inline;
+  }
+  .flickr hr{
+    border-bottom: 1px solid #EFBB42;
+  }
+  .flickr .arrow_down{
+    border-top: 10px solid #EFBB42;
+  }
+  .flickr_photos{
+    padding-top:20px;
+    display: grid;
+    grid-gap:1%;
+    grid-template-rows: repeat(2, 50%);
+    grid-template-columns: repeat(3,33%);
+  }
+  .flickr_photos img{
+    width: 100%;
+  }
+  .newsletter{
+    display: inline;
+  }
+  .form{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .newsletter .input{
+    background-color: #db6662;
+    width: 75%;
+    height: 25%;
+    display: inline;
+    padding: 5% 35% 5% 2%;
+    color: white;
+  }
+  .newsletter hr{
+    border-bottom: 1px solid #50ABE1;
+  }
+  .newsletter .arrow_down{
+    border-top: 10px solid #50ABE1;
+  }
+  .newsletter img{
+    width: 17%;
+    background-color:#F5BB41;
+  }
+  .footer_squares{
+    text-align: center;
+  }
+  .footer_squares img{
+    width: 100%;
+    margin-top: 25px;
+  }
+  .things_of_above{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .arcordian{
+    display: flex;
+    flex-direction: row;
+  }
+  .arcordian >img{
+    width: 450px;
+  }
 }
 
 /* /* FOOOTER THINGGZ */
