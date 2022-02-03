@@ -180,6 +180,81 @@ div.service_contents{
 .pencil{
   border: 2px solid darkcyan;
 }
+/* BLOG */
+.blog_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog_container{
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  margin: .5em;
+}
+.entry_date{
+  background: tomato;
+  color: white;
+  width: fit-content;
+  padding: 10px;
+  position: absolute;
+  z-index: 2;
+}
+.blog_img{
+  z-index: 1;
+  width: 292px;
+  height: 250px;
+  background: url(../img/djTable.png);
+}
+.day{
+  font-weight: bold;
+}
+.img_descriptor{
+  background-color: rgb(52, 180, 231);
+  color: white;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  width: 292px;
+  position: relative;
+  z-index: 2;
+}
+.description > span{
+  font-weight: bold;
+}
+.description{
+  margin:15px;
+  line-height: .8em;
+}
+.camera{
+  background: url(../img/icons/camera.png) no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
+  border: none;
+  background-color: #078cca;
+  margin: 1em;
+}
+
+/* div.blog_content{
+  display: flex;
+  flex-direction: column;
+}
+.section_blog{
+  display: grid;
+  grid-template-rows: 200fr 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 2em;
+}
+
+
+
+
+
 
 
 /*FOOTER
@@ -656,75 +731,11 @@ div.service_container{
   margin: 1.5em;
 }
 
-.service_container span{
-  font-weight: bold;
-}
-
-.lightbulb{
-  border: 2px solid orange;
-  width: 50%;
-  margin-bottom: 1em;
-}
-
-.photography{
-  border: 2px solid green;
-  width: 50%;
-  margin-bottom: 1em;
-}
-
-.settings{
-  border: 2px solid pink;
-  width: 50%;
-  margin-bottom: 1em;
-}
-
-.pencil{
-  border: 2px solid darkcyan;
-  width: 50%;
-  margin-bottom: 1em;
-}
 
 /* section blog 
 .section_blog{
   display: flex;
   flex-direction: row;
-}
-
-div.blog_content{
-  width: 800px;
-  height: 300px;
-  display: flex;
-}
-.entry_date{
-  background: tomato;
-  color: white;
-  width: fit-content;
-  padding: 10px;
-}
-
-.day{
-  font-weight: bold;
-}
-
-.entry_description{
-  background-color: skyblue;
-  color: white;
-  float: left;
-  padding: 10px;
-  width: 100%;
-  
-}
-
-.descrption_title{
-  font-weight: bold;
-  font-size: larger;
-}
-
-.camera{
-  background: url(/img/icons/camera.png) no-repeat;
-  width: 20px;
-  height: 20px;
-  background-size: 100%
 }
 
 
