@@ -90,9 +90,10 @@ img {
 /* ==========================================================================
    Layout
    ========================================================================== */
-h1, h2{
+main{
   text-align: center;
 }
+/*HEADER*/
 .page_header> button{
   display: none;
 }
@@ -119,7 +120,18 @@ img.logo{
 .page_navbar{
   display:none;
 }
-/* page-header */
+/*SLIDER*/
+.slider{
+  display: none;
+}
+h1{
+  font-weight: lighter;
+  font-size: 26px;
+  width: 100%;
+}
+.metrolics{
+  color: #29b0e6;
+}
 
 /*FOOTER
 footer{
@@ -579,20 +591,6 @@ button.chevron_right{
   width:30%;
   height: 30%;
 }
-
-
-
-
-/* homepage intro 
-h1{
-  margin: 3em;
-  /* text-align: center; 
-}
-
-.metrolics{
-  color: skyblue;
-}
-
 
 /* section_services 
 
