@@ -93,6 +93,9 @@ img {
 main{
   text-align: center;
 }
+p{
+  margin-top: .5em;
+}
 /*HEADER*/
 .page_header> button{
   display: none;
@@ -133,6 +136,51 @@ h1{
 .metrolics{
   color: #29b0e6;
 }
+/*SERVICES*/
+h2{
+  font-weight: lighter;
+  margin: 0;
+  font-size: 26px;
+}
+.title > p{
+  color: #999;
+  font-size: 12px;
+}
+header{
+  margin-top: 3em;
+}
+div.service_contents{
+  display: block;
+}
+.service_container{
+  display: flex;
+  padding: .5em;
+}
+.service_container > img{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.service_description{
+  text-align: left;
+}
+.service_container span{
+  font-weight: bold;
+}
+.lightbulb{
+  border: 2px solid orange;
+}
+.photography{
+  border: 2px solid green;
+}
+.settings{
+  border: 2px solid pink;
+}
+
+.pencil{
+  border: 2px solid darkcyan;
+}
+
 
 /*FOOTER
 footer{
@@ -594,10 +642,6 @@ button.chevron_right{
 }
 
 /* section_services 
-
-h3{
-  font-weight: normal;
-}
 
 
 section.services{
