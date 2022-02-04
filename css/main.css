@@ -87,7 +87,7 @@
      Author's custom styles
      ========================================================================== */
 
-  main{
+  html{
     text-align: center;
     margin: 0 15%;
   }
@@ -150,7 +150,6 @@
   .service_contents{
     display: grid;
     grid-auto-flow: row;
-    
   }
 
   .service_container{
