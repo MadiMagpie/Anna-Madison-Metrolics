@@ -250,15 +250,14 @@
     background-color: #4abae9;
     height: 10%;
   }
-  /* .project:hover .img_descriptor{
-    background-color: blue;
-  } */
   .img_descriptor{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 2%;
+    text-align: left;
+
   }
   .img_descriptor p{
     color: white;
